@@ -27,7 +27,7 @@ The goals / steps of this project are the following:
 My pipeline consists of 6 steps. 
 #Step 1 - Converted the image to grayscale.
 #Step 2 - Applied Gaussian blur to the image. 
-#Step 3 - Applied the Canny Transform I've chosen a `low_threshold=40` and `high_threshold=`120`, keeping a ratio 1:3.
+#Step 3 - Applied the Canny Transform I've chosen a low_threshold=40 and high_threshold=120, keeping a ratio 1:3.
 #Step 4 - Limited the area in a polygon shape where the lanes are. 
 #Step 5 - Applying the Hough lines and tuning the parameters.
 #Step 6 - overlaying the original image with Hough lines.
