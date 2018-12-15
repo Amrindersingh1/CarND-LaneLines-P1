@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images/solidWhiteCurve_res.jpg "DETECT LANE LINES"
 
 ---
 
@@ -31,7 +31,7 @@ My pipeline consists of 6 steps.
 *Step 5 - Applying the Hough lines and tuning the parameters.
 *Step 6 - overlaying the original image with Hough lines.
 
-![alt text][image1]: ./test_images/solidWhiteCurve_res.jpg "DETECT LANE LINES"
+![alt text][image1]: 
 
 
 ### 2. Identify potential shortcomings with your current pipeline
