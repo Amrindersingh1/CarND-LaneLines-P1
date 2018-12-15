@@ -25,12 +25,20 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consists of 6 steps. 
-# Step 1 - Converted the image to grayscale.
-# Step 2 - Applied Gaussian blur to the image. 
-# Step 3 - Applied the Canny Transform I've chosen a low_threshold=40 and high_threshold=120, keeping a ratio 1:3.
-# Step 4 - Limited the area in a polygon shape where the lanes are. 
-# Step 5 - Applying the Hough lines and tuning the parameters.
-# Step 6 - overlaying the original image with Hough lines.
+* Step 1 - Converted the image to grayscale.
+* Step 2 - Applied Gaussian blur to the image. 
+* Step 3 - Applied the Canny Transform I've chosen a low_threshold=40 and high_threshold=120, keeping a ratio 1:3.
+* Step 4 - Limited the area in a polygon shape where the lanes are. 
+* Step 5 - Applying the Hough lines and tuning the parameters.
+* Step 6 - overlaying the original image with Hough lines.
+
+#### changes to draw_lines()
+* 1. created a collection of left and right lane points based on slope
+* 2. calculated the average value for a single line
+* 3. calculated slope and intercept of each side of lane
+* 4. defaulted and start end points
+* 5. calculated final x-axis endpoints
+* 6. draw the line using calculated values
 
 ![alt text][image0]
 Original image
