@@ -23,11 +23,13 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+My pipeline consists of 6 steps. 
+Step 1 - Converted the image to grayscale.
+Step 2 - Applied Gaussian blur to the image. 
+Step 3 - Applied the Canny Transform I've chosen a `low_threshold=40` and `high_threshold=`120`, keeping a ratio 1:3.
+Step 4 - Limited the area in a polygon shape where the lanes are. 
+Step 5 - Applying the Hough lines and tuning the parameters.
+Step 6 - overlaying the original image with Hough lines.
 
 ![alt text][image1]
 
