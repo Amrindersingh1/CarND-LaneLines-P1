@@ -34,10 +34,9 @@ My pipeline consists of 6 steps.
 
 #### changes to draw_lines()
 * 1. created a collection of left and right lane points based on slope
-* 2. calculated the average value for a single line
+* 2. initialized endpoint max values 
 * 3. calculated slope and intercept of each side of lane
-* 4. defaulted and start end points
-* 5. calculated final x-axis endpoints
+* 5. calculated x1, x2, y2
 * 6. draw the line using calculated values
 
 ![alt text][image0]
